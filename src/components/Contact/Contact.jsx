@@ -65,7 +65,7 @@ const Contact = () => {
                   type="text" 
                   id="name" 
                   name="name"
-                  placeholder="John Doe"
+                  placeholder="Enter your name"
                   className="form-input"
                   required
                 />
@@ -77,7 +77,7 @@ const Contact = () => {
                   type="email" 
                   id="email" 
                   name="email"
-                  placeholder="john@example.com"
+                  placeholder="Enter your email"
                   className="form-input"
                   required
                 />
@@ -142,13 +142,13 @@ const Contact = () => {
               </div>
 
               <div className="social-links">
-                <a href="https://www.linkedin.com/in/himesha-pathirana-3a0b0a1b4/" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin />
-                </a>
-                <a href="https://github.com/himeshapathirana" target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
-                </a>
-              </div>
+  <a href="https://www.linkedin.com/in/himesha-pathirana-aa3659214" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin />
+  </a>
+  <a href="https://github.com/himeshapathirana" target="_blank" rel="noopener noreferrer">
+    <FaGithub />
+  </a>
+</div>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 {
   "name": "himeshap",
+  "homepage": "https://himeshapathirana.github.io/himeshaPathiranaWeb",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
@@ -16,6 +19,7 @@
     "@heroicons/react": "^2.2.0",
     "aos": "^2.3.4",
     "framer-motion": "^12.4.10",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^19.0.0",

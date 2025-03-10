@@ -75,9 +75,9 @@ const Education = () => {
               <div className="results">
                 <h4>Results:</h4>
                 <ul>
-                  <li>Combined Mathematics: <strong>C</strong></li>
-                  <li>Physics: <strong>S</strong></li>
-                  <li>Chemistry: <strong>S</strong></li>
+                  <li>Combined Mathematics <strong>C</strong></li>
+                  <li>Physics <strong>S</strong></li>
+                  <li>Chemistry <strong>S</strong></li>
                 </ul>
               </div>
             </div>
